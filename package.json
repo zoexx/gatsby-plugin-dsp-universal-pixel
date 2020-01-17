@@ -1,7 +1,7 @@
 {
   "name": "gatsby-plugin-dsp-universal-pixel",
   "description": "Gatsby plugin to add Basis DSP Universal Pixel Script onto a site",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Zoe Ying <zoexxying@gmail.com>",
   "devDependencies": {
     "babel-cli": "^6.24.1",

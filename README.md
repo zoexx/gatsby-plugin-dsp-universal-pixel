@@ -9,11 +9,17 @@ Easily add [Universal Pixel Script](https://dspsupport.basis.net/hc/en-us/articl
 
 ```javascript
 // In your gatsby-config.js
+// options.id is required
+// options.cntrData is optional
 plugins: [
   {
     resolve: `gatsby-plugin-dsp-universal-pixel`,
     options: {
       id: 'Universal Pixel ID.',
+      cntrData: {
+        'category':'shoes',
+        'gender':'m'
+      }
     },
   },
 ]

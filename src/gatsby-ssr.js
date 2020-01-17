@@ -8,6 +8,7 @@ exports.onRenderBody = ({ setHeadComponents }, pluginOptions) => {
         key={`gatsby-plugin-dsp-universal-pixel`}
         dangerouslySetInnerHTML={{
           __html: `
+          if(${pluginOptions.cntrData !== undefined}){ var cntrData = JSON.parse('${JSON.stringify(pluginOptions.cntrData)}')}
           cntrUpTag.track('cntrData', '${pluginOptions.id}');
       `,
         }}
