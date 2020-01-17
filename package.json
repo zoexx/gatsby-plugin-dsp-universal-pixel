@@ -1,0 +1,30 @@
+{
+  "name": "gatsby-plugin-dsp-universal-pixel",
+  "description": "Gatsby plugin to add Basis DSP Universal Pixel Script onto a site",
+  "version": "1.0.0",
+  "author": "Zoe Ying <zoexxying@gmail.com>",
+  "devDependencies": {
+    "babel-cli": "^6.24.1"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "Basis DSP Universal Pixel Script"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "watch": "babel -w src --out-dir ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zoexx/gatsby-plugin-dsp-universal-pixel"
+  },
+  "dependencies": {
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.12.0"
+  }
+}
